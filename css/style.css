@@ -41,7 +41,7 @@ body {
   height: 100vh;
   background: #131415;
   /*-moz-user-select: none;
-   -webkit-user-select: none; 
+   -webkit-user-select: none;
   -ms-user-select:none;
   user-select:none;
   -o-user-select:none;*/
@@ -320,7 +320,7 @@ margin-top: -100px;}
   z-index: 500;
 }
 
- 
+
 .viz {
 
     position: absolute;
@@ -389,7 +389,7 @@ svg {
 }
 
 /*.none .entries {
-  display: none; 
+  display: none;
   opacity: 0;
 }*/
 
@@ -401,12 +401,12 @@ svg {
 }
 
 .timeline.small .middle, .timeline.small .large {
-  display: none; 
+  display: none;
   opacity: 0;
 }
 
 .timeline.middle .small, .timeline.middle .large {
-  display: none; 
+  display: none;
   opacity: 0;
 }
 
@@ -446,7 +446,7 @@ svg {
 
 .timeline .small .title {font-size: 0.5em;}
 .timeline .middle .title {
-  
+
 }
 
 
@@ -950,3 +950,46 @@ textarea:focus, input:focus{
     outline: none;
 }
 
+.fs-button {
+  background: rgba(0,0,0,0.2);
+  padding: 5px;
+  position: absolute;
+  right:25px;
+  top: 30px;
+  border: none;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.fs-button svg {
+  fill: #FFF;
+  width: 28px;
+  height: 28px;
+  opacity: 0.5;
+  position: unset;
+}
+.fs-button svg.active {
+  display: none;
+}
+.fs-button svg:hover {
+  opacity: 1;
+}
+
+.fs-button.active svg.active {
+  display: block;
+}
+.fs-button.active svg.inactive {
+  display: none;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}

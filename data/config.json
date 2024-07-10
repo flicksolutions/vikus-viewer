@@ -5,6 +5,7 @@
   },
   "loader": {
     "info": "data/info.md",
+    "timeline": "data/timeline.csv",
     "items": "data/vikus.csv",
     "layouts": [
       {

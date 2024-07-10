@@ -8,10 +8,10 @@
     "items": "data/vikus.csv",
     "layouts": [
       {
-        "title": "Chronologie"
+        "title": "time"
       },
       {
-        "title": "Visuelle Ähnlichkeit",
+        "title": "similarity",
         "scale": 2.5,
         "url": "data/tsne.csv"
       }

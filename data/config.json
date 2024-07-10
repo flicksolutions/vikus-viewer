@@ -11,7 +11,7 @@
         "title": "Chronologie"
       },
       {
-        "title": "similarity",
+        "title": "Ähnlichkeit",
         "scale": 2.5,
         "url": "data/tsne.csv"
       }

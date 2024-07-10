@@ -8,7 +8,7 @@
     "items": "data/vikus.csv",
     "layouts": [
       {
-        "title": "time"
+        "title": "Chronologie"
       },
       {
         "title": "similarity",

@@ -53,10 +53,28 @@
   "detail": {
     "structure": [
       {
-        "name": "Description",
+        "name": "Beschreibung",
         "source": "_description",
         "display": "column",
         "type": "text"
+      },
+      {
+        "name": "Zur Objektansicht",
+        "source": "_url",
+        "display": "column",
+        "type": "link"
+      },
+      {
+        "name": "Jahr",
+        "source": "_year",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Schlagworte",
+        "source": "_keywords",
+        "display": "column",
+        "type": "array"
       }
     ]
   }

@@ -129,13 +129,16 @@ function init() {
 
     console.log(config.loader.layouts);
 
+    const urlParams = new URLSearchParams(window.location.search);
+    const viewParam = urlParams.get("view");
+
     config.loader.layouts.forEach((d, i) => {
       if (d.url) {
         d3.csv(utils.makeUrl(baseUrl.path, d.url), function (tsne) {
           canvas.addTsneData(d.title, tsne, d.scale);
-          if (i == 0) canvas.setMode(d.title);
+          if (i === 0 || viewParam) canvas.setMode(d.title);
         });
-      } else {
+      } else if (!viewParam) {
         canvas.setMode("time");
       }
     });

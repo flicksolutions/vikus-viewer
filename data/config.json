@@ -15,16 +15,6 @@
         "title": "Visuelle Ähnlichkeit",
         "scale": 2.5,
         "url": "data/tsne.csv"
-      },
-      {
-        "title": "Visuelle Ähnlichkeit (UMAP)",
-        "scale": 2.5,
-        "url": "data/umap.csv"
-      },
-      {
-        "title": "Visuelle Ähnlichkeit (UMAP-py)",
-        "scale": 2.5,
-        "url": "data/projection.csv"
       }
     ],
     "textures": {
